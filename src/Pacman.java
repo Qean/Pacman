@@ -69,19 +69,19 @@ public class Pacman {
      */
     public Pacman(int x, int y, int lives) {
         try {
-            pacman1 = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan1.gif"));
-            pacman2up = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan2up.gif"));
-            pacman3up = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan3up.gif"));
-            pacman4up = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan4up.gif"));
-            pacman2down = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan2down.gif"));
-            pacman3down = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan3down.gif"));
-            pacman4down = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan4down.gif"));
-            pacman2left = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan2left.gif"));
-            pacman3left = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan3left.gif"));
-            pacman4left = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan4left.gif"));
-            pacman2right = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan2right.gif"));
-            pacman3right = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan3right.gif"));
-            pacman4right = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan4right.gif"));
+            pacman1 = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan1.gif"));
+            pacman2up = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan2up.gif"));
+            pacman3up = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan3up.gif"));
+            pacman4up = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan4up.gif"));
+            pacman2down = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan2down.gif"));
+            pacman3down = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan3down.gif"));
+            pacman4down = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan4down.gif"));
+            pacman2left = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan2left.gif"));
+            pacman3left = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan3left.gif"));
+            pacman4left = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan4left.gif"));
+            pacman2right = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan2right.gif"));
+            pacman3right = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan3right.gif"));
+            pacman4right = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan4right.gif"));
         } catch (IOException e) {
             e.printStackTrace();
         }

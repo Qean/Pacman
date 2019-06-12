@@ -25,8 +25,8 @@ public class Blinky {
      */
     public Blinky(int x, int y) {
         try {
-            blinky = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\Blinky.gif"));
-            scared = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\GhostScared.gif"));
+            blinky = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\Blinky.gif"));
+            scared = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\GhostScared.gif"));
         } catch (IOException e) {
             e.printStackTrace();
         }

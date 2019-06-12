@@ -76,7 +76,7 @@ public class Board extends JPanel implements ActionListener {
      */
     public Board(int board_width, int board_height) {
         loadImages();
-        loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Sound\\pacman_chomp.wav"));
+        loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Sound\\pacman_chomp.wav"));
         initBoard(board_width, board_height);
         initVariables();
         inGame = true;
@@ -103,7 +103,7 @@ public class Board extends JPanel implements ActionListener {
 
     private void loadImages() {
         try {
-            lives = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Images\\PacMan3left.gif"));
+            lives = ImageIO.read(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Images\\PacMan3left.gif"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -229,7 +229,7 @@ public class Board extends JPanel implements ActionListener {
                 try {
                     clip.close();
                     stream.close();
-                    loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Sound\\pacman_beginning.wav"));
+                    loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Sound\\pacman_beginning.wav"));
                     clip.start();
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -245,7 +245,7 @@ public class Board extends JPanel implements ActionListener {
                 try {
                     clip.close();
                     stream.close();
-                    loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Sound\\pacman_intermission.wav"));
+                    loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Sound\\pacman_intermission.wav"));
                     clip.start();
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -290,12 +290,12 @@ public class Board extends JPanel implements ActionListener {
         try {
             clip.close();
             stream.close();
-            loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Sound\\pacman_death.wav"));
+            loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Sound\\pacman_death.wav"));
             clip.start();
             TimeUnit.MILLISECONDS.sleep(750);
             clip.close();
             stream.close();
-            loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Sound\\pacman_chomp.wav"));
+            loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Sound\\pacman_chomp.wav"));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -337,7 +337,7 @@ public class Board extends JPanel implements ActionListener {
                         try {
                             clip.close();
                             stream.close();
-                            loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\JtP\\Projekt_my\\src\\Sound\\pacman_chomp.wav"));
+                            loadSound(new File("C:\\Users\\AnarosPC\\IdeaProjects\\Pacman\\src\\Sound\\pacman_chomp.wav"));
                         } catch (Exception ex) {
                             ex.printStackTrace();
                         }
