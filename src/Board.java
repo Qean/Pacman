@@ -199,6 +199,8 @@ public class Board extends JPanel implements ActionListener {
      * @param g
      */
     private void doDrawing(Graphics g) {
+        if (score == 302)
+            inGame = false;
         clip.loop(Clip.LOOP_CONTINUOUSLY);
         drawMap((Graphics2D) g);
         drawPoints((Graphics2D) g);
