@@ -1,2 +1,2 @@
 # Pacman
-Moja implementacja Pacmana
+Moja implementacja Pacmana w Java Swing (bo tak chciał prowadzący...)
